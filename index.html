@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Eyes ❤️</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="hearts"></div>
+
+
+<div class="sparkles"></div>
+
+
+<div class="background-overlay"></div>
+
+
+<section id="welcomePage" class="page active">
+
+    <div class="glass-card">
+
+        <h1 class="title">
+            Dear Marzana Akhi ❤️
+        </h1>
+
+        <h2 class="typing-text">
+            I have something very special to ask you. Do you have some time? If Yes, then Open My Heart please🥺..
+        </h2>
+
+        <button class="main-btn" onclick="showPage('questionPage')">
+            Open My Heart ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<section id="questionPage" class="page">
+
+    <div class="glass-card">
+
+        <h1 class="question">
+
+            Akhi Will You Go On A Date With Me?
+
+            ❤️🥺
+
+        </h1>
+
+        <div class="button-area">
+
+            <button
+            class="yes-btn"
+            onclick="showPage('datePage')">
+
+            Yes ❤️
+
+            </button>
+
+            <button
+            id="noBtn"
+            class="no-btn">
+
+            No 😢
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="datePage" class="page">
+
+<div class="glass-card">
+
+<h1>
+
+Please Choose A Date You Want To Go With Me ❤️
+
+</h1>
+
+<div class="picker-box">
+
+<input
+type="date"
+id="datePicker">
+
+</div>
+
+<button
+
+class="main-btn"
+
+onclick="saveDate()">
+
+Continue →
+
+</button>
+
+</div>
+
+</section>
+
+
+<section id="timePage" class="page">
+
+<div class="glass-card">
+
+<h1>
+
+Now Please Choose Our Time ❤️
+
+</h1>
+
+<div class="picker-box">
+
+<input
+type="time"
+id="timePicker">
+
+</div>
+
+<button
+
+class="main-btn"
+
+onclick="saveTime()">
+
+Confirm ❤️
+
+</button>
+
+</div>
+
+</section>
+
+
+<div id="lovePopup">
+
+<div class="popup-card">
+
+<h1>
+
+💌
+
+</h1>
+
+<h2>
+
+A Little Letter For You My Dear Love
+
+</h2>
+
+<p>
+
+Dear Akhi,
+
+<br><br>
+
+Every day with you feels like a blessing.
+
+Your smile makes my heart happy,
+and every moment with you becomes my favorite memory.
+
+These past 5 months have been so amazing.
+I could not imagine life without you now.
+
+I don't know what the future holds,
+but I know one thing,
+
+I want to create one more beautiful memories with you.
+
+Will you make me the happiest person
+by spending this special day with me?
+
+Your forever -
+
+Mehen
+
+</p>
+
+<button
+
+class="main-btn"
+
+onclick="showPage('finalPage')">
+
+Continue ❤️
+
+</button>
+
+</div>
+
+</div>
+
+
+<section id="finalPage" class="page">
+
+<div class="glass-card">
+
+<h1>
+
+🎉 Yayyyyy!! 🎉
+
+</h1>
+
+<h2>
+
+You Said YES Akhi❤️
+
+</h2>
+
+<p>
+
+Our Date Is Officially Confirmed! Thank You Eyes.😍
+
+</p>
+
+<div class="result-box">
+
+<p>
+
+📅 Date
+
+</p>
+
+<h3 id="finalDate">
+
+--
+
+</h3>
+
+<p>
+
+⏰ Time
+
+</p>
+
+<h3 id="finalTime">
+
+--
+
+</h3>
+
+</div>
+
+<div class="love-message">
+
+I Promise.
+
+I will make you feel special and life is too short to have boring dates, let's make this one unforgettable.❤️
+
+I Love You Akhi And If Forever Doesn't Exist I will Love You To Infinity And Beyond.❤️
+
+</div>
+
+<button
+
+class="main-btn"
+
+onclick="location.reload()">
+
+Start Again ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<div id="confetti"></div>
+
+<div id="fireworks"></div>
+
+<script src="script.js"></script>
+
+<div id="fireworks"></div>
+
+<div id="petals"></div>
+
+</body>
+</html>
